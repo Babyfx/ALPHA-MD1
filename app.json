@@ -1,5 +1,5 @@
 {
-  "name": "ALPHA-MD",
+  "name": "babyfx",
   "description": "This BOT was developed by keithkeizzah.",
   "keywords": [
     "bot",
@@ -14,7 +14,7 @@
   "env": {
     "PREFIX": {
       "description": "choose your prefix of bot",
-      "value": ".",
+      "value": "#"
       "required": true
     },
     "AUTO_READ_STATUS": {
@@ -24,12 +24,12 @@
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "false",
       "required": false
     },
     "BLOCK_ALL": {
       "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
-      "value": "yes",
+      "value": "false",
       "required": false  
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -44,7 +44,7 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "ALPHA-MD",
+      "value": "babyfx",
       "required": false
     },
     "BOT_MENU_LINKS": {
@@ -69,18 +69,18 @@
     },
     "SESSION_ID": {
       "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0RXSktsQmxNaGo5MkQ5eDc5bXpObHRxQk5iWk16eS9KbHovanNyVTFVTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSzlqK05PdU55aGh3c25GZE85cGFpaEJEeUVHb09qY0VqemJHRHRFMU15cz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIrSHI3Q0c3MUp3T2pkSTM4TGVJUThsdU01KzlnM2FCY2kzOU5ScUNSbDBjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwVjZqRjhEcG1IeEpjYXFXWGZKTTg4WVg1aGlNTG4zcTI5NVJ1eEVOOFVJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImFEZUQrNFpzd0cvT3drWkNsSVpXRFVNVi9RQ3pqYUdMTnBXaTRKZ2RaRTg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjIrdkt3dDVzSzZUekRtQnozRm52b0pTNUc1WWUxa2RWdnUyV013WXg3U289In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUNFNlpXZ3dvb1RYcUhLaFRQTW54RHpVK2QwRWlEenVLTGlBRXlVYUhWWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiL0FUUVVKUWlKbkoxc1EzVm9LYVphcnRlRDBVV0VET2hXWm5od0krbzh5RT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFrRzNXdlJRWFlXYmhWbHRmRHc1UDhpaEF2TnFiMTgrOGkvN2FUdWQzQ1d1d0tnbE93cmVTNFpxVi9JNktMNlN6Rld2QlIwZG9hbWpZaGVzMUJZV2lnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjE4LCJhZHZTZWNyZXRLZXkiOiJRdmNTYzI0MWtCczRGU1BUK0s3NkN6cDdNNmR4VFV3TDZkeko3UXJOWm4wPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJfQlE4bGNic1JzR1RMRlpPbndGWmtnIiwicGhvbmVJZCI6ImIwNGQ5MjNmLTk2MDUtNDZjYi05ZmIwLTg4MWE2ZGNiMTkwNCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRSlZzZmpTYW9tSEZNU254Z2Q4UFlXajlmTFU9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOGlOSlNYeXRWenlpSEdOYzRaYUpQYmNXWjBjPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkJXWVpaRTJEIiwibWUiOnsiaWQiOiIyNTY3NjEzOTYzMDk6NTBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiQsy6zYZBzLrNhkLMus2GWcy6zYZGzLrNhljMus2GIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKZW5xcEFHRUxmUytyZ0dHQW9nQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJRa1Z0YmtsdFI2dy9QUE1aUExyVW9nWWQyZzlmMkNmWWwxN3QxK3lNZ1JNPSIsImFjY291bnRTaWduYXR1cmUiOiIwK0VrNDc2S21ROVRwVFlac2t3WGtFbGFBYVpEZlBDRDZkbEQvbXRETFM4Nmk5THhuZE1XaTg4NjMzZzlpU1VnckJoS0lzaENxUnZYeGU5YTVqSUhDdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiY2dNQ0xWR1N3bFE4VmJlYmVHQlliWFIyZHR3UkFxSUpMaGsvVEpDVW9PUElXMlJLOXBWNnNERHZiMkpDckNQc1I2Zk1nMDFzdWNiOE96OGZCdFM0amc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTY3NjEzOTYzMDk6NTBAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVUpGYlc1SmJVZXNQenp6R1R5NjFLSUdIZG9QWDlnbjJKZGU3ZGZzaklFVCJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTczMDA2MjY2MX0=",
       "required": true
     },
     "OWNER_NAME": {
       "desc": "Your Name",
       "required": false,
-      "value": "keithkeizzah"
+      "value": "babyfx"
     },
     "NUMERO_OWNER": {
       "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
       "required": false,
-      "value": "254796299159"
+      "value": "256761396309"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commandes",
@@ -99,7 +99,7 @@
     },
     "ANTI_DELETE_MESSAGE": {
       "description": "if you want to enable anti delete message put yes else put no",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL": {
@@ -110,7 +110,7 @@
     "AUTO_REACTION": {
       "description": "Put yes if you want the bot to react to messages in private",
       "required": false,
-      "value": "yes"
+      "value": "false"
     }
   },
   "formation": {
